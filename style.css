@@ -1,0 +1,193 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #F6F2F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side{
+    position: relative;
+    background: #9200FD;
+    padding: 30px;
+}
+
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.39);
+}
+
+.perfil .foto{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil .foto img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil h2{
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.perfil h3{
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.info{
+    padding-top: 40px;
+}
+
+.titulo{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.info ul{
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.39);
+}
+
+.info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    text-align:left;
+}
+
+.info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #1B0829;
+}
+
+.info ul li .text{
+    color: #F6F2F9;
+    font-weight: 300;
+}
+
+.habilidades ul{
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.39);
+}
+
+.habilidades{
+    padding-top: 40px; 
+}
+
+.habilidades ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    text-align:left;
+}
+
+.idiomas ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    text-align:left;
+}
+.habilidades ul li .text{
+    color: #F6F2F9;
+    font-weight: 300;
+}
+
+.idiomas{
+    padding-top: 40px; 
+}
+
+.idiomas ul li .text{
+    color: #F6F2F9;
+    font-weight: 300;
+}
+.idiomas .porcentaje{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(1, 0, 18, 0.317);
+    display: block;
+    margin-top: 5px;
+}
+
+.idiomas .porcentaje div{
+    position: absolute;
+    height: 100%;
+    background: #fff;
+}
+
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.perfilEst{
+    margin-bottom: 50px;
+}
+
+.perfil:last-child{
+    margin-bottom: 0;
+}
+
+.tituloP{
+    color: #550093;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #222;
+}
+
+
+
